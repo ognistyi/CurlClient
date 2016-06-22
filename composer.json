@@ -1,0 +1,21 @@
+{
+  "name": "ognistyi/curl-client",
+  "description": "Simple Curl wrapper",
+  "type": "library",
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Ognistyi",
+      "email": "ognistyi@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Ognistyi\\CurlClient\\": "src"
+    }
+  }
+}
